@@ -1,3 +1,5 @@
-entrada_usuario = input("Cómo estás hoy?")
-if entrada_usuario == "Feliz" or "Satisfecho":
+x = input("Cómo estás hoy?")
+if x == "Feliz" or x== "Satisfecho":
     print("Me alegra oír eso!")
+else:
+    print("Milloret")
