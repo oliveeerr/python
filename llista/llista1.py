@@ -1,6 +1,18 @@
-print("Introdueix una paraula qualsevol: ")
-paraula = input ()
-if str(paraula) == str(paraula)[::-1] :
-    print("Capicua")
-else:
-    print("La paraula no és capicua")
+def capicua(paraula):
+
+    r = Vertader
+    j = len(paraula)
+
+    for i in paraula:
+        if i != paraula[j]:
+             r = Fals
+         j-=1
+    return r
+
+def printCapicua(paraula):
+    print("La paraula", paraula , end="")
+    if(capicua(paraula)):
+        print("és capicua")
+    else:
+        print("No és capicua")
+    return Vertader
